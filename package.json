@@ -1,0 +1,21 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "middleware for connect between front and back",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Bakin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.10",
+    "request": "^2.83.0"
+  }
+}
